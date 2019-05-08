@@ -1,0 +1,32 @@
+.Header{
+    position: relative;
+}
+
+.Header>img{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    z-index: 2;
+    color: white;
+}
+
+#firstline{
+    font-size: 40px;
+}
+#firstline::first-letter{
+    font-size: 60px
+}
+
+#secondline{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+#thirdline{
+    font-size: 10px;
+}

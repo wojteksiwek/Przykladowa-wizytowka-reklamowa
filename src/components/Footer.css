@@ -1,0 +1,16 @@
+.Footer{
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.Footer>a:link, .Footer>a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.Footer>a:hover, .Footer>a:active{
+    color: gold;
+    text-decoration: none;
+}

@@ -1,0 +1,34 @@
+.Nav{
+    height: 38px;
+    font-size: 13px;
+}
+
+.logo{
+    display: inline-block;
+    float: left;
+}
+.logo>img{
+    margin-left: 15px;
+    width: 150px;
+    height: auto;
+}
+
+.Nav>ul{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+.Nav>ul>li{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 2px;
+}
+
+.Nav>ul>li:last-child{
+    margin-right: 40px;
+}
+
+.Nav>ul>li:hover{
+    color: gold;
+}

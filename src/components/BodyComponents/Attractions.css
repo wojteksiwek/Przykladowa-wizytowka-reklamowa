@@ -1,0 +1,50 @@
+.Attractions::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.AttractionsDescription{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+.AttractionDescFirstLine{
+    font-size: 40px;
+    color: gold;
+
+}
+
+.AttractionDescSecondLine{
+    letter-spacing: 20px;
+    line-height: 2px
+
+}
+
+.AttractionDesctext{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.AttractionDescMoreButton{
+    color: gold;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.AttractionsPhoto{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+.AttractionsPhoto>img{
+    width: 33%;
+    height: auto;
+    padding: 5px;
+}

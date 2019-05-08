@@ -1,0 +1,63 @@
+.House{
+    width: 100%;
+    margin: 0;
+}
+
+.House::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.House-description{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 300px;
+    position: sticky;
+
+}
+
+.houseDescFirstLine{
+    font-size: 40px;
+    color: gold;
+
+}
+
+.houseDescSecondLine{
+    letter-spacing: 20px;
+    line-height: 2px
+
+}
+
+.HouseDesctext{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.HouseDescMoreButton{
+    color: gold;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.HouseDescMoreButton:hover{
+    color: rgb(187, 159, 0);
+}
+
+.House-photo{
+    position: sticky;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 300px;
+
+}
+
+.House-photo>img{
+    height: 100%;
+    width: auto;
+    padding: 0 20px;
+}
